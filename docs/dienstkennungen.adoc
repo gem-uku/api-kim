@@ -1,1 +1,6 @@
 = Dienstkennungen
+
+[format="csv", separator=";", options="header"]
+|===
+include::dienstkennungen.csv[]
+|===
