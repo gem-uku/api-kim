@@ -8,7 +8,8 @@ Wenn Sie eine Anwendung für KIM konzipieren, welche noch nicht in dieser Liste 
 
 Bei Fragen zu Spezifikation oder Qualitätssicherung wenden Sie sich bitte an die verantwortlichen Verbände, da deren Informationen auf den Angaben dieser Verbände basieren. Die Übersicht erhebt keinen Anspruch auf Vollständigkeit.
 
-[format="csv", separator="#", options="header"]
+.Dienstkennungen
+[format="csv", separator=",", options="header"]
 |===
-include::dienstkennungen.csv[]
+include::test.csv[]
 |===
