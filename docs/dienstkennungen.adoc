@@ -12,6 +12,10 @@ Bei Fragen zu Spezifikation oder Qualitätssicherung wenden Sie sich bitte an di
 [format="csv", separator="#", options="header"]
 |===
 Anwendung#Verantwortlich#Anwendungsbeschreibung#Dienstkennung & Kurzbeschreibung
-Default#gematik GmbH#Default Dienstkennung#KIM-Mail;Default;V1.0<br>Verwendung: Diese Dienstkennung soll nicht durch den E-Mail-Client gesetzt werden und dient als Platzhalter. Diese wird ausschließlich durch das Client-Module gesetzt, wenn sie nicht anders durch den Mail-Client befüllt wurde!
-Abwesenheitsnotiz#gematik GmbH#Default Abwesenheitsnotiz#KIM-Mail;Abwesend;V1.0<br>Verwendung: Diese Dienstkennung muss durch den Mail-Server beim Versand einer Abwesenheitsnotiz gesetzt werden.
+Default#gematik GmbH#Default Dienstkennung#KIM-Mail;Default;V1.0
+
+Verwendung: Diese Dienstkennung soll nicht durch den E-Mail-Client gesetzt werden und dient als Platzhalter. Diese wird ausschließlich durch das Client-Module gesetzt, wenn sie nicht anders durch den Mail-Client befüllt wurde!
+Abwesenheitsnotiz#gematik GmbH#Default Abwesenheitsnotiz#KIM-Mail;Abwesend;V1.0
+
+Verwendung: Diese Dienstkennung muss durch den Mail-Server beim Versand einer Abwesenheitsnotiz gesetzt werden.
 |===
