@@ -9,9 +9,9 @@ Wenn Sie eine Anwendung für KIM konzipieren, welche noch nicht in dieser Liste 
 Bei Fragen zu Spezifikation oder Qualitätssicherung wenden Sie sich bitte an die verantwortlichen Verbände, da deren Informationen auf den Angaben dieser Verbände basieren. Die Übersicht erhebt keinen Anspruch auf Vollständigkeit.
 
 .Dienstkennungen
-[format="csv", separator=",", options="header"]
+[format="csv", separator="#", options="header"]
 |===
-
-include::./test.csv[]
-
+Anwendung#Verantwortlich#Anwendungsbeschreibung#Dienstkennung & Kurzbeschreibung
+Default#gematik GmbH#Default Dienstkennung#KIM-Mail;Default;V1.0<br>Verwendung: Diese Dienstkennung soll nicht durch den E-Mail-Client gesetzt werden und dient als Platzhalter. Diese wird ausschließlich durch das Client-Module gesetzt, wenn sie nicht anders durch den Mail-Client befüllt wurde!
+Abwesenheitsnotiz#gematik GmbH#Default Abwesenheitsnotiz#KIM-Mail;Abwesend;V1.0<br>Verwendung: Diese Dienstkennung muss durch den Mail-Server beim Versand einer Abwesenheitsnotiz gesetzt werden.
 |===
