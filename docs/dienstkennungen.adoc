@@ -11,5 +11,7 @@ Bei Fragen zu Spezifikation oder Qualitätssicherung wenden Sie sich bitte an di
 .Dienstkennungen
 [format="csv", separator=",", options="header"]
 |===
-include::test.csv[]
+
+include::./test.csv[]
+
 |===
