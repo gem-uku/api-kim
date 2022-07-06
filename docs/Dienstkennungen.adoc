@@ -9,7 +9,7 @@ Wenn Sie eine Anwendung für KIM konzipieren, welche noch nicht in dieser Liste 
 Bei Fragen zu Spezifikation oder Qualitätssicherung wenden Sie sich bitte an die verantwortlichen Verbände, da deren Informationen auf den Angaben dieser Verbände basieren. Die Übersicht erhebt keinen Anspruch auf Vollständigkeit.
 
 .Dienstkennungen
-[options="header", cols="1,2,2,4"]
+[options="header", cols="1,1,1,4"]
 |===
 | Anwendung | Verantwortlich | Anwendungsbeschreibung |Dienstkennung & Kurzbeschreibung
 | Default
