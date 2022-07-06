@@ -25,4 +25,123 @@ Verwendung: Diese Dienstkennung soll nicht durch den E-Mail-Client gesetzt werde
 | KIM-Mail;Abwesend;V1.0
 
 Verwendung: Diese Dienstkennung muss durch den Mail-Server beim Versand einer Abwesenheitsnotiz gesetzt werden.
+
+| DALE-UV
+| Deutsche Gesetzliche Unfallversicherung e.V. (DGUV)
+| Datenaustauschverfahren zwischen Durchgangsärzten (Leistungserbringende) und den Trägern der Gesetzlichen Unfallversicherung (Berufsgenossenschaften und Unfallkassen).
+| DALE-UV;Einsendung;V1.0
+
+Nachrichten-Typ: Einsendung
+Verwendung: D-Ärzte und D-Ärztinnen
+
+DALE-UV;Quittung;V1.0
+
+Nachrichten-Typ: Quittung
+Verwendung: DGUV
+
+https://www.dguv.de/medien/dale-uv/documents/download/swh/doku/techdoku_22_2_01.pdf[Technische Dokumentation (dguv.de)]
+
+https://www.dguv.de/dale-uv/info-fuer-softwarehersteller/downloads/index.jsp[DGUV Dale-UV Information Swh] TD 22.2.01
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
+| 
+| 
+| 
+| 
+
+
 |===
