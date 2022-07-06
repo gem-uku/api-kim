@@ -15,26 +15,26 @@ Bei Fragen zu Spezifikation oder Qualitätssicherung wenden Sie sich bitte an di
 | Default
 | gematik GmbH
 | Default Dienstkennung
-|KIM-Mail;Default;V1.0
+| *KIM-Mail;Default;V1.0*
 
 Verwendung: Diese Dienstkennung soll nicht durch den E-Mail-Client gesetzt werden und dient als Platzhalter. Diese wird ausschließlich durch das Client-Module gesetzt, wenn sie nicht anders durch den Mail-Client befüllt wurde!
 
 | Abwesenheitsnotiz
 | gematik GmbH
 | Default Abwesenheitsnotiz
-| KIM-Mail;Abwesend;V1.0
+| *KIM-Mail;Abwesend;V1.0*
 
 Verwendung: Diese Dienstkennung muss durch den Mail-Server beim Versand einer Abwesenheitsnotiz gesetzt werden.
 
 | DALE-UV
 | Deutsche Gesetzliche Unfallversicherung e.V. (DGUV)
 | Datenaustauschverfahren zwischen Durchgangsärzten (Leistungserbringende) und den Trägern der Gesetzlichen Unfallversicherung (Berufsgenossenschaften und Unfallkassen).
-| DALE-UV;Einsendung;V1.0
+| *DALE-UV;Einsendung;V1.0*
 
 Nachrichten-Typ: Einsendung
 Verwendung: D-Ärzte und D-Ärztinnen
 
-DALE-UV;Quittung;V1.0
+*DALE-UV;Quittung;V1.0*
 
 Nachrichten-Typ: Quittung
 Verwendung: DGUV
