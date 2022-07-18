@@ -31,7 +31,7 @@ Es sollen marktübliche AV-Scanner unterstützt werden (z. B. ClamAV, SpamAssass
 
 == Fachlicher Kontext
 
-image::KIM-AV-Scanner.svg[KIM-AV-Scanner]
+image::architecture/KIM-AV-Scanner.svg[KIM-AV-Scanner]
 
 == Beispiel
 
