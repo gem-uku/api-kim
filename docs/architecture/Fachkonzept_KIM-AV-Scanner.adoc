@@ -1,0 +1,39 @@
+= Fachkonzept KIM-AV-Scanner
+gematik, Systems Engineering
+:source-highlighter: rouge
+:title-page:
+:imagesdir: /images/
+ifdef::env-github[]
+:toc: preamble
+endif::[]
+ifndef::env-github[]
+:toc: left
+endif::[]
+:toclevels: 3
+:toc-title: Inhaltsverzeichnis
+//:sectnums:
+
+image::gematik_logo.svg[gematik,float="right"]
+
+== Einführung und Ziele
+
+Im KIM-Clientmodul und in der tiefen Integration des KIM-Clientmoduls im Primärsystem, muss es eine Möglichkeit geben, die KIM-Mail auf Schadsoftware zu prüfen. Die Prüfung muss nach Entschlüsselung der KIM-Mail aber vor Ablage der Mail in der Clientumgebung erfolgen. Die Prüfung muss auch an einem zentralen AV-Scanner (z. B. eines Krankenhauses) erfolgen können.
+
+Im positiven Fall werden eingehende Nachrichten im KIM CM bzw. integriertes KIM CM entschlüsselt, auf Viren überprüft und anschließend ans PS bzw. E-Mail Client ausgeliefert.
+
+Im Fall des Vorkommens von Schadsoftware soll sowohl an den Sender als auch an den Empfänger eine Nachricht darüber geschickt werden, dass die Email nicht zugestellt werden konnte. Die potentiell gefährliche Nachricht soll in diesem Fall nicht an den Empfänger ausgeliefert werden. Der Empfänger muss über den Absender, den Titel der Nachricht und den Empfangszeitpunkt sowie über Details der Virenprüfung informiert werden. Der Sender muss informiert werden, dass seine KIM Nachricht nicht zugestellt werden durfte. Im Log des CM soll das Scan-Ergebnis protokolliert werden.
+
+== Randbedingungen
+
+Es gibt keinen einheitlichen Standard, um AV-Scanner anzubinden.
+Es sollen marktübliche AV-Scanner unterstützt werden (z. B. ClamAV, SpamAssassin, AntiVir, AVG AV, F-Prot, etc.).
+
+
+== Fachlicher Kontext
+
+image::KIM-AV-Scanner.svg[KIM-AV-Scanner]
+
+== Beispiel
+
+https://www.ijs.si/software/amavisd/[amavisd-new]
+
