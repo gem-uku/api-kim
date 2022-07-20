@@ -31,7 +31,17 @@ Es sollen marktübliche AV-Scanner unterstützt werden (z. B. ClamAV, SpamAssass
 
 == Fachlicher Kontext
 
+Die Ver- und Entschlüsselung der KIM Nachrichten erfolgt im Clientmodul (CM). Daher erfolgt die Anbindung des AV-Scanners über eine Schnittstelle am Clientmodul.
+
 image::KIM-AV-Scanner.svg[KIM-AV-Scanner]
+
+Über die Schnittstelle (1) können KIM-Nachrichten versendet (SMTP) und vom Postfach abgeholt werden (POP3). Am CM können vom KIM-Client eingehende Nachrichten optional vor der Verschlüsselung über die Schnittstelle (2) an den AV-Scanner zur Überprüfung gesendet werden.
+Wenn Schadsoftware in der KIM-Nachricht enthalten war, dann wird der Absender per KIM-Nachricht darüber informiert, dass Schadsoftware gefunden wurde und dass die Mail nicht an den Empfänger weitergeleitet wurde.
+
+Über die Schnittstelle (3) empfängt das CM KIM-Nachrichten vom Postfach des KIM-Mailservers. Nach der Entschlüsselung können die Nachrichten optional über die Schnittstelle (2) an den AV-Scanner zur Überprüfung gesendet werden.
+Wenn Schadsoftware in der KIM-Nachricht enthalten war, dann wird der Absender per KIM-Nachricht darüber informiert, dass Schadsoftware gefunden wurde und dass die Mail nicht an den Empfänger weitergeleitet wurde. Der Empfänger wird per Mail darüber informiert,
+
+Welche Schnittstelle zur Anbindung von AV-Scannern eingesetzt wird, ist nicht vorgeschrieben.
 
 == Beispiel
 
