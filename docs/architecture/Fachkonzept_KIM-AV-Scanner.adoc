@@ -41,10 +41,13 @@ Wenn Schadsoftware in der KIM-Nachricht enthalten war, dann wird der Absender pe
 Über die Schnittstelle (3) empfängt das CM KIM-Nachrichten vom Postfach des KIM-Mailservers. Nach der Entschlüsselung können die Nachrichten optional über die Schnittstelle (2) an den AV-Scanner zur Überprüfung gesendet werden.
 Wenn Schadsoftware in der KIM-Nachricht enthalten war, dann wird der Absender per KIM-Nachricht darüber informiert, dass Schadsoftware gefunden wurde und dass die Mail nicht an den Empfänger weitergeleitet wurde. Der Empfänger wird per Mail darüber informiert,
 
-Der AV-Scanner kann auf dem gleichen Gerät zusammen mit dem CM, oder remote betrieben werden. Welche Schnittstelle im CM zur Anbindung von AV-Scannern eingesetzt wird, ist nicht vorgeschrieben.
+Die Anbindung eines AV-Scanners muss über eine Netzwerk-Verbindung möglich sein.
+Der AV-Scanner kann auf dem gleichen Gerät zusammen mit dem CM betrieben werden. Welche Schnittstelle im CM zur Anbindung von AV-Scannern eingesetzt wird, ist nicht vorgeschrieben.
 
 == Beispiele
 
 https://spamassassin.apache.org/[SpamAssassin]
+
 https://www.ijs.si/software/amavisd/[amavisd-new]
+
 https://sourceforge.net/projects/assp/[Anti-Spam SMTP Proxy Server]
