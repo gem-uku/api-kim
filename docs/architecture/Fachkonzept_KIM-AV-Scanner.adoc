@@ -46,6 +46,8 @@ Der AV-Scanner kann auf dem gleichen Gerät zusammen mit dem CM betrieben werden
 
 == Beispiele
 
+https://www.rfc-editor.org/rfc/rfc3507.html[Internet Content Adaptation Protocol (ICAP)]
+
 https://spamassassin.apache.org/[SpamAssassin]
 
 https://www.ijs.si/software/amavisd/[amavisd-new]
