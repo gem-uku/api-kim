@@ -19,7 +19,7 @@ image::gematik_logo.svg[gematik,float="right"]
 
 Im KIM-Clientmodul und in der tiefen Integration des KIM-Clientmoduls im Primärsystem, muss es eine Möglichkeit geben, die KIM-Mail auf Schadsoftware zu prüfen. Die Prüfung muss nach Entschlüsselung der KIM-Mail aber vor Ablage der Mail in der Clientumgebung erfolgen. Die Prüfung muss auch an einem zentralen AV-Scanner (z. B. eines Krankenhauses) erfolgen können.
 
-Im positiven Fall werden eingehende Nachrichten im KIM CM bzw. integriertes KIM CM entschlüsselt, auf Viren überprüft und anschließend ans PS bzw. E-Mail Client ausgeliefert.
+Eingehende Nachrichten im KIM CM bzw. integriertes KIM CM werden entschlüsselt, auf Viren überprüft und anschließend ans PS bzw. E-Mail Client ausgeliefert.
 
 Im Fall des Vorkommens von Schadsoftware soll sowohl an den Sender als auch an den Empfänger eine Nachricht darüber geschickt werden, dass die Email nicht zugestellt werden konnte. Die potentiell gefährliche Nachricht soll in diesem Fall nicht an den Empfänger ausgeliefert werden. Der Empfänger muss über den Absender, den Titel der Nachricht und den Empfangszeitpunkt sowie über Details der Virenprüfung informiert werden. Der Sender muss informiert werden, dass seine KIM Nachricht nicht zugestellt werden durfte. Im Log des CM soll das Scan-Ergebnis protokolliert werden.
 
