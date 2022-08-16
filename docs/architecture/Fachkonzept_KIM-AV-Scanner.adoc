@@ -48,7 +48,7 @@ Der AV-Scanner kann auf dem gleichen Gerät zusammen mit dem CM betrieben werden
 
 Die gematik spezifiziert ein einfaches OpenAPI REST-Interface mit dem eine Datei zu einem AV-Scanner gesendet werden kann. In der Response wird das Prüfergebnis übertragen.
 
-== Beispiele
+== Weblinks
 
 https://www.rfc-editor.org/rfc/rfc3507.html[Internet Content Adaptation Protocol (ICAP)]
 
