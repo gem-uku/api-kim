@@ -44,6 +44,10 @@ Wenn Schadsoftware in der KIM-Nachricht enthalten war, dann wird der Absender pe
 Die Anbindung eines AV-Scanners muss über eine Netzwerk-Verbindung möglich sein.
 Der AV-Scanner kann auf dem gleichen Gerät zusammen mit dem CM betrieben werden. Welche Schnittstelle im CM zur Anbindung von AV-Scannern eingesetzt wird, ist nicht vorgeschrieben.
 
+== Lösungsvorschlag
+
+Die gematik spezifiziert ein einfaches OpenAPI REST-Interface mit dem eine Datei zu einem AV-Scanner gesendet werden kann. In der Response wird das Prüfergebnis übertragen.
+
 == Beispiele
 
 https://www.rfc-editor.org/rfc/rfc3507.html[Internet Content Adaptation Protocol (ICAP)]
