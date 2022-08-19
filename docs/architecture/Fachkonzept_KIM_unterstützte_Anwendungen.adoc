@@ -32,10 +32,35 @@ Es gibt eine Möglichkeit die Verfügbarkeit für Payload Anwendungen zu ändern
 
 == Randbedingungen
 
-Primärsysteme verwenden aktuell im VZD das LDAP-Directory. Um zukünftige Anwendungen, wie den TI-Messenger oder KIM 2.0 nutzen zu können
-
+Primärsysteme verwenden aktuell im VZD das LDAP-Directory. Um zukünftige Anwendungen, wie den TI-Messenger oder KIM 2.0 nutzen zu können, werden PS auch das FHIR-Directory unterstützen. Um die Entwicklungsaufwände für PS-Hersteller zu reduzieren, ist es sinnvoll, wenn die Datenstrukturen für die Erkennung der unterstützten KIM-Anwendungen in LDAP-Directory identisch zu den Datenstrukturen im FHIR-Directory sind. DAS FHIR-Directory soll schon jetzt alle für KIM erforderlichen Daten unterstützen, damit PS-Hersteller schon früh mit der Umstellung auf das FHIR-Directory beginnen können.
 
 == Fachlicher Kontext
+
+=== Anwendungsfälle
+
+*Ein Zahnarzt möchte bei einer Krankenkasse zahnärztlicher Leistungen beantragen und genehmigen lassen*
+
+Die passende KIM-Anwendung dafür ist EBZ (Elektronische Beantragung und Genehmigung zahnärztlicher Leistungen).
+Anhand der im PS gespeicherten Patientendaten ermittelt das PS die IK-Nummer der Krankenkasse. Mit der IK-Nummer als Suchparameter wird im Verzeichnisdienst die KIM-Adresse der Krankenkasse gesucht und zusätzlich, welche KIM-Anwendungen mit dieser KIM-Adresse genutzt werden können. Im Suchergebnis ist angegeben, dass die Krankenkasse auch die KIM-Anwendung EBZ unterstützt.
+
+*Eine Krankenkasse möchte die unterstützten KIM-Anwendungen im VZD eintragen/ändern/löschen*
+
+Hinweis: Der Vorgang wird idealerweise automatisch ausgeführt, wenn das Backend-System zur Verarbeitung von KIM-Anwendungen (im folgenden Clientsystem genannt) ein update erhält.
+
+Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung sollen die Anwendungen die eAU und EBZ unterstützt werden. Das Clientsystem sendet eine KIM-Nachricht ohne Inhalt an die eigene Adresse. Die KIM-Nachricht enthält jedoch im Header die Dienstkennungen der unterstützten KIM-Anwendungen.
+
+.Beispiel, KIM-Anwendung und zugehörige Dienstkennung
+|===
+|KIM-Anwendung |Dienstkennung
+|eAU
+|eAU;Lieferung;V1.0
+|EBZ
+|EBZ;PAR;1.4.0
+|===
+
+=== Datenmodell
+
+
 
 
 
