@@ -1,0 +1,47 @@
+= Fachkonzept KIM, Feature: Erfassung und Auswertung unterstützter KIM Anwendungen
+gematik, Systems Engineering
+:source-highlighter: rouge
+:title-page:
+:imagesdir: /images/
+ifdef::env-github[]
+:toc: preamble
+endif::[]
+ifndef::env-github[]
+:toc: left
+endif::[]
+:toclevels: 3
+:toc-title: Inhaltsverzeichnis
+//:sectnums:
+
+image::gematik_logo.svg[gematik,float="right"]
+
+== Einführung und Ziele
+
+Als Nutzer von KIM ist es hilfreich zu wissen, welche "KIM-Anwendung" der Empfänger mit seiner KIM E-Mail unterstützt. Wenn z. B. der Sender eines Heil- und Kostenplans vor dem Absenden erkennen kann, ob der Empfänger diesen auch technisch verarbeiten kann, dann weiß der Absender schon vor dem Versenden, ob KIM genutzt werden kann und erfährt nicht erst nach dem Versenden, dass der Empfänger noch nicht bereit ist für diese KIM-Anwendung.
+
+Das Feature ist als Enabler für KIM gedacht. Die Information, welche KIM-Anwendungen unterstützt werden, sollen im VZD automatisch erfasst werden.
+
+Die Information soll mit der KIM-Mailadresse verknüpft sein. Änderungen sollen nur durch Nutzer ausgelöst werden dürfen.
+
+Akzeptanzkriterien
+
+Die Verfügbarkeit von Payload Anwendungen wird für LE im VZD automatisch erfasst.
+Es gibt eine Möglichkeit die Verfügbarkeit für Payload Anwendungen austragen zu lassen.
+Es gibt eine Möglichkeit die Verfügbarkeit für Payload Anwendungen zu ändern.
+Änderungen sollen vorzugsweise nur durch die Anwender ausgelöst werden dürfen, z.B. per Email oder über einen anderen einfachen und direkten Weg.
+
+== Randbedingungen
+
+Primärsysteme verwenden aktuell im VZD das LDAP-Directory. Um zukünftige Anwendungen, wie den TI-Messenger oder KIM 2.0 nutzen zu können
+
+
+== Fachlicher Kontext
+
+
+
+== Lösungsvorschlag
+
+
+
+== Weblinks
+
