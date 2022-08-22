@@ -113,7 +113,7 @@ Beispiel:
 
 Die Endpoint Ressource ist bereits definiert: https://simplifier.net/vzd-fhir-directory/endpointdirectory[VZD-FHIR-Directory, Endpoint]
 
-== Lösungsvorschlag
+// == Lösungsvorschlag
 
 
 
