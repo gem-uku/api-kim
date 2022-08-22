@@ -41,7 +41,7 @@ Primärsysteme verwenden aktuell im VZD das LDAP-Directory. Um zukünftige Anwen
 *Ein Zahnarzt möchte bei einer Krankenkasse zahnärztlicher Leistungen beantragen und genehmigen lassen*
 
 Die passende KIM-Anwendung dafür ist EBZ (Elektronische Beantragung und Genehmigung zahnärztlicher Leistungen).
-Anhand der im PS gespeicherten Patientendaten ermittelt das PS die IK-Nummer der Krankenkasse. Mit der IK-Nummer als Suchparameter wird im Verzeichnisdienst die KIM-Adresse der Krankenkasse gesucht und zusätzlich, welche KIM-Anwendungen mit dieser KIM-Adresse genutzt werden können. Im Suchergebnis ist angegeben, dass die Krankenkasse auch die KIM-Anwendung EBZ unterstützt.
+Anhand der im PS gespeicherten Patientendaten ermittelt das PS die IK-Nummer der Krankenkasse. Mit der IK-Nummer als Suchparameter wird im Verzeichnisdienst die KIM-Adresse der Krankenkasse gesucht und zusätzlich, welche KIM-Anwendungen mit dieser KIM-Adresse genutzt werden können. Im Suchergebnis ist angegeben, dass die Krankenkasse auch die KIM-Anwendung EBZ unterstützt. Das CM zeigt die Bereitschaft zum Versenden des Antrags an und der Zahnarzt füllt den Antrag aus und drückt auf senden.
 
 *Eine Krankenkasse möchte die unterstützten KIM-Anwendungen im VZD eintragen/ändern/löschen*
 
@@ -58,11 +58,48 @@ Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung
 |EBZ;PAR;1.4.0
 |===
 
+Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Nachricht (über einen neues X-KIM Header-Element X-KIM-VZD-Konfig=addAppSupport) und trägt im VZD die Unterstützung der Anwendung gemäß Dienstkennungen ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden (X-KIM-VZD-Konfig=removeAppSupport).
+
 === Datenmodell
 
+Die Information über unterstützte KIM-Anwendungen wird sowohl im LDAP-Directory als auch im FHIR-Directory gespeichert.
 
+==== LDAP-Directory
 
+Die Daten werden in der KOM-LE-Fachdaten-Datenstruktur gespeichert. Die Daten entsprechen der FHIR-Endpoint Datenstruktur.
 
+LDAP-Attribut: endpoint
+
+Der Wert des Attributs endpoint wird als json Datenstruktur gespeichert.
+
+Beispiel:
+[source,json]
+----
+{
+  "status": "active",
+  "connectionType": {
+    "system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryConnectionType",
+    "code": "kim-1.5"
+  },
+  "name": "created by config mail",
+  "payloadType": [ {
+	"coding": {
+		"system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryPayloadType",
+		"code": "eAU"
+	},
+	}, {
+	"coding": {
+		"system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryPayloadType",
+		"code": "EBZ"
+	}
+  } ],
+  "address": "mailto:localpart@example.kim.de"
+}
+----
+
+==== FHIR-Directory
+
+Die Endpoint Ressource ist bereits definiert: https://simplifier.net/vzd-fhir-directory/endpointdirectory[VZD-FHIR-Directory, Endpoint]
 
 == Lösungsvorschlag
 
