@@ -58,7 +58,19 @@ Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung
 |EBZ;PAR;1.4.0
 |===
 
-Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Nachricht (über einen neues X-KIM Header-Element *X-KIM-VZD-Konfig=addAppSupport*) und trägt im VZD die Unterstützung der Anwendung gemäß Dienstkennungen ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden (*X-KIM-VZD-Konfig=removeAppSupport*).
+Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Nachricht über einen neues X-KIM Header-Element
+
+[source, ruby]
+----
+X-KIM-VZD-Konfig=addAppSupport
+----
+
+und trägt im VZD die Unterstützung der Anwendung gemäß Dienstkennungen ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden.
+
+[source, ruby]
+----
+ X-KIM-VZD-Konfig=removeAppSupport
+----
 
 === Datenmodell
 
