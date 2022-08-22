@@ -38,12 +38,12 @@ Primärsysteme verwenden aktuell im VZD das LDAP-Directory. Um zukünftige Anwen
 
 === Anwendungsfälle
 
-*Ein Zahnarzt möchte bei einer Krankenkasse zahnärztlicher Leistungen beantragen und genehmigen lassen*
+*1) Ein Zahnarzt möchte bei einer Krankenkasse zahnärztlicher Leistungen beantragen und genehmigen lassen*
 
 Die passende KIM-Anwendung dafür ist EBZ (Elektronische Beantragung und Genehmigung zahnärztlicher Leistungen).
 Anhand der im PS gespeicherten Patientendaten ermittelt das PS die IK-Nummer der Krankenkasse. Mit der IK-Nummer als Suchparameter wird im Verzeichnisdienst die KIM-Adresse der Krankenkasse gesucht und zusätzlich, welche KIM-Anwendungen mit dieser KIM-Adresse genutzt werden können. Im Suchergebnis ist angegeben, dass die Krankenkasse auch die KIM-Anwendung EBZ unterstützt. Das CM zeigt die Bereitschaft zum Versenden des Antrags an und der Zahnarzt füllt den Antrag aus und drückt auf senden.
 
-*Eine Krankenkasse möchte die unterstützten KIM-Anwendungen im VZD eintragen/ändern/löschen*
+*2) Eine Krankenkasse möchte die unterstützten KIM-Anwendungen im VZD eintragen/ändern/löschen*
 
 Hinweis: Der Vorgang wird idealerweise automatisch ausgeführt, wenn das Backend-System zur Verarbeitung von KIM-Anwendungen (im folgenden Clientsystem genannt) ein update erhält.
 
