@@ -62,14 +62,14 @@ Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Na
 
 [source, ruby]
 ----
-X-KIM-VZD-Konfig=addAppSupport
+X-KIM-KonfigVZD=addAppSupport
 ----
 
 und trägt im VZD die Unterstützung der Anwendung gemäß Dienstkennungen ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden.
 
 [source, ruby]
 ----
- X-KIM-VZD-Konfig=removeAppSupport
+ X-KIM-KonfigVZD=removeAppSupport
 ----
 
 === Datenmodell
