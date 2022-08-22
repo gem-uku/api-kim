@@ -60,14 +60,14 @@ Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung
 
 Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Nachricht über einen neues X-KIM Header-Element
 
-[source, ruby]
+[source, bash]
 ----
 X-KIM-KonfigVZD=addAppSupport
 ----
 
 und trägt im VZD die Unterstützung der Anwendung gemäß Dienstkennungen ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden.
 
-[source, ruby]
+[source, bash]
 ----
  X-KIM-KonfigVZD=removeAppSupport
 ----
