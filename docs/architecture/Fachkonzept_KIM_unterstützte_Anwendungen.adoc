@@ -113,9 +113,13 @@ Beispiel:
 
 Die Endpoint Ressource ist bereits definiert: https://simplifier.net/vzd-fhir-directory/endpointdirectory[VZD-FHIR-Directory, Endpoint]
 
-// == Lösungsvorschlag
+== Schnittstellen
 
+Die KIM-Anbieter nutzen am VZD eine REST-Schnittstelle zur Pflege ihrer Fachdaten im LDAP-Directory (I_Directory_Application_Maintenance). Diese Schnittstelle wird um Operationen zum anlegen, ändern und löschen von endpoint Attributen erweitert. Die Suche nach Einträgen muss erweitert werden, sodass auch die KIM Mail-Adresse als Suchparameter angegeben werden kann. Dadurch wird es möglich, dass der KIM-MAil-Server anhand der from Adresse den zu ändernden Eintrag mit den KIM-Fachdaten finden kann.
 
+== API
+
+Die https://github.com/gematik/api-kim/tree/main[api-kim] wird erweitert um die oben beschriebenen Anwendungsfälle.
 
 == Weblinks
 
