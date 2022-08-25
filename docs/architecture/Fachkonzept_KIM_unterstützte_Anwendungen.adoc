@@ -121,7 +121,7 @@ Beispiel:
 }
 ----
 
-Für die Erzeugung des Eintrags in der flachen Liste wird auch das Attribut endpoint verwendet. Zusätzlich werden alle payloadType-Werte in payloadType Attributen gespeichert. Dadurch wird es möglich in der flachen Liste nach Einträgen zu suchen, die einen bestimmten payloadTape haben.
+Für die Erzeugung des Eintrags in der flachen Liste wird auch das Attribut endpoint verwendet. Zusätzlich werden alle payloadType-Werte in payloadType Attributen gespeichert. Dadurch wird es möglich in der flachen Liste nach Einträgen zu suchen, die einen bestimmten payloadType haben.
 
 Beispiel:
 [source,json]
