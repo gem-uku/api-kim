@@ -47,15 +47,15 @@ Anhand der im PS gespeicherten Patientendaten ermittelt das PS die IK-Nummer der
 
 Hinweis: Der Vorgang wird idealerweise automatisch ausgeführt, wenn das Backend-System zur Verarbeitung von KIM-Anwendungen (im folgenden Clientsystem genannt) ein update erhält.
 
-Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung sollen die Anwendungen die eAU und EBZ unterstützt werden. Das Clientsystem sendet eine KIM-Nachricht ohne Inhalt an die eigene Adresse. Die KIM-Nachricht enthält jedoch im Header die Dienstkennungen der unterstützten KIM-Anwendungen.
+Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung sollen die Anwendungen eAU und EBZ unterstützt werden. Das Clientsystem sendet eine KIM-Nachricht ohne Inhalt an die eigene Adresse. Die KIM-Nachricht enthält jedoch im Header die payloadTypes der unterstützten KIM-Anwendungen. Der payLoadType entspricht der Dienstkennung; enthält jedoch nicht die Nachrichtentypen (mittlerer Teil der Dienstkennung).
 
-.Beispiel, KIM-Anwendung und zugehörige Dienstkennung
+.Beispiel, KIM-Anwendung und zugehörige payloadType
 |===
-|KIM-Anwendung |Dienstkennung
+|KIM-Anwendung |payloadType
 |eAU
-|eAU;Lieferung;V1.0
+|eAU;V1.0
 |EBZ
-|EBZ;PAR;1.4.0
+|EBZ;1.4.0
 |===
 
 Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Nachricht über einen neues X-KIM Header-Element
@@ -65,7 +65,7 @@ Der KIM-Fachdienst (Mail Server) erkennt die KIM-Nachricht als Konfigurations-Na
 X-KIM-KonfigVZD=addAppSupport
 ----
 
-und trägt im VZD die Unterstützung der Anwendung gemäß Dienstkennungen ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden.
+und trägt im VZD die Unterstützung der Anwendung gemäß payloadType ein. Über den gleichen Weg aber mit anderem Wert im X-KIM-Header-Element kann die Unterstützung für eine KIM Anwendung entfernt werden.
 
 [source, bash]
 ----
@@ -97,16 +97,46 @@ Beispiel:
   "payloadType": [ {
 	"coding": {
 		"system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryPayloadType",
-		"code": "eAU;Lieferung;V1.0"
+		"code": "eAU;V1.0"
 	},
 	}, {
 	"coding": {
 		"system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryPayloadType",
-		"code": "EBZ;PAR;1.4.0"
+		"code": "EBZ;1.4.0"
 	}
   } ],
   "address": "mailto:localpart@example.kim.de"
 }
+----
+
+Für die Erzeugung des Eintrags in der flachen Liste wird auch das Attribut endpoint verwendet. Zusätzlich werden alle payloadType-Werte in payloadType Attributen gespeichert. Dadurch wird es möglich in der flachen Liste nach Einträgen zu suchen, die einen bestimmten payloadTape haben.
+
+Beispiel:
+[source,json]
+----
+endpoint: {
+  "status": "active",
+  "connectionType": {
+    "system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryConnectionType",
+    "code": "kim-1.5"
+  },
+  "name": "created by config mail",
+  "payloadType": [ {
+	"coding": {
+		"system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryPayloadType",
+		"code": "eAU;V1.0"
+	},
+	}, {
+	"coding": {
+		"system": "https://gematik.de/fhir/directory/CodeSystem/EndpointDirectoryPayloadType",
+		"code": "EBZ;1.4.0"
+	}
+  } ],
+  "address": "mailto:localpart@example.kim.de"
+}
+
+payloadType: "eAU;V1.0"
+payloadType: "EBZ;1.4.0"
 ----
 
 ==== FHIR-Directory
