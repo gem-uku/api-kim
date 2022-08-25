@@ -23,7 +23,7 @@ Das Feature ist als Enabler für KIM gedacht. Die Information, welche KIM-Anwend
 
 Die Information soll mit der KIM-Mailadresse verknüpft sein. Änderungen sollen nur durch Nutzer ausgelöst werden dürfen.
 
-Akzeptanzkriterien
+*Akzeptanzkriterien*
 
 Die Verfügbarkeit von Payload Anwendungen wird für LE im VZD automatisch erfasst.
 Es gibt eine Möglichkeit die Verfügbarkeit für Payload Anwendungen austragen zu lassen.
