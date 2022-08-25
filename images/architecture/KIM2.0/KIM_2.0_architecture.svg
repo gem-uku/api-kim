@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export KIM_Architektur_2.0.svg KIM 2.0 Architektur mit X.509 Zertifikaten -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st34">
+	<v:documentProperties v:langID="1031" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#ffffff;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.46}
+		.st4 {marker-end:url(#mrkr5-17);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st5 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.22222222222222}
+		.st6 {fill:#ff0000;font-family:Arial;font-size:0.499992em}
+		.st7 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st8 {fill:#ff0000;font-family:Arial;font-size:0.666664em}
+		.st9 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4}
+		.st10 {fill:#000000;font-family:Arial;font-size:0.833336em}
+		.st11 {font-size:1em}
+		.st12 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st13 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.7}
+		.st14 {fill:#ff0000;font-size:1em}
+		.st15 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st16 {marker-end:url(#mrkr5-100);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st17 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22222222222222}
+		.st18 {fill:#000000;font-family:Arial;font-size:0.499992em}
+		.st19 {fill:#f2f2f2;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4}
+		.st20 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st21 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.46}
+		.st22 {fill:#000000;font-family:Arial;font-size:0.666664em}
+		.st23 {stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st24 {fill:#ffffff;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.96}
+		.st25 {fill:#ffffff;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4}
+		.st26 {stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st27 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st28 {fill:#ff0000;font-family:Calibri;font-size:0.833336em}
+		.st29 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st30 {fill:#000000;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st31 {font-size:1em;font-weight:normal}
+		.st32 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st33 {fill:#ff0000;font-family:Arial;font-size:0.833336em}
+		.st34 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-17" class="st5" v:arrowType="5" v:arrowSize="2" v:setback="0" refX="-0" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.5,-4.5) "/>
+		</marker>
+		<marker id="mrkr5-100" class="st17" v:arrowType="5" v:arrowSize="2" v:setback="0" refX="-0" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.5,-4.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="4" v:index="2" v:groupContext="foregroundPage">
+		<title>KIM 2.0 Architektur mit X.509 Zertifikaten</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape379-1" v:mID="379" v:groupContext="shape" transform="translate(566.929,-49.6063)">
+			<title>Tabelle.379</title>
+			<rect x="0" y="538.583" width="240.945" height="56.6929" class="st1"/>
+		</g>
+		<g id="group316-3" transform="translate(260.787,-215.551)" v:mID="316" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.316</title>
+			<desc>KIM 2.0: send(), receive(); KAS and AccountManager Interface</desc>
+			<g id="shape317-4" v:mID="317" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L168.66 595.28" class="st2"/>
+			</g>
+			<g id="shape318-7" v:mID="318" v:groupContext="shape" transform="translate(180,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L168.66 595.28" class="st2"/>
+			</g>
+			<g id="shape319-10" v:mID="319" v:groupContext="shape" transform="translate(168.661,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape320-12" v:mID="320" v:groupContext="shape" transform="translate(174.614,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape316-19" v:mID="316" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="168.661" cy="605.197" width="226.56" height="226.552"/>
+				<rect v:rectContext="textBkgnd" x="57.4982" y="600.397" width="222.326" height="9.59985" class="st7"/>
+				<text x="57.5" y="607.6" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM 2.0: send(), receive(); KAS and AccountManager Interface</text>			</g>
+		</g>
+		<g id="shape176-22" v:mID="176" v:groupContext="shape" transform="translate(454.961,-226.772)">
+			<title>agent.176</title>
+			<desc>TI-Komponenten für KIM</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="55.2756" cy="466.016" width="110.56" height="258.52"/>
+			<rect x="0" y="336.756" width="110.551" height="258.52" class="st9"/>
+			<text x="10.81" y="348.56" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>TI-Komponenten für <tspan
+						x="46.39" dy="1.2em" class="st11">KIM</tspan></text>		</g>
+		<g id="group1-26" transform="translate(28.3465,-246.496)" v:mID="1" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_StickyMan" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>human agent</title>
+			<g id="shape2-27" v:mID="2" v:groupContext="shape">
+				<title>Tabelle.2</title>
+				<rect x="0" y="561.26" width="22.6772" height="34.0157" class="st9"/>
+			</g>
+			<g id="group3-29" transform="translate(5.10236,-7.37008)" v:mID="3" v:groupContext="group">
+				<title>Tabelle.3</title>
+				<g id="shape4-30" v:mID="4" v:groupContext="shape" transform="translate(3.42992,-16.9101)">
+					<title>Tabelle.4</title>
+					<path d="M0 592.28 A2.8063 2.99339 0 0 1 5.61 592.28 A2.8063 2.99339 0 0 1 0 592.28 Z" class="st12"/>
+				</g>
+				<g id="shape5-32" v:mID="5" v:groupContext="shape" transform="translate(601.512,578.365) rotate(90)">
+					<title>Tabelle.5</title>
+					<path d="M0 595.28 L9.57 595.28" class="st13"/>
+				</g>
+				<g id="shape6-35" v:mID="6" v:groupContext="shape" transform="translate(459.789,973.482) rotate(130.366)">
+					<title>Tabelle.6</title>
+					<path d="M0 595.28 L9.63 595.28" class="st13"/>
+				</g>
+				<g id="shape7-38" v:mID="7" v:groupContext="shape" transform="translate(459.789,202.397) rotate(49.6338)">
+					<title>Tabelle.7</title>
+					<path d="M0 595.28 L9.63 595.28" class="st13"/>
+				</g>
+				<g id="shape8-41" v:mID="8" v:groupContext="shape"
+						transform="translate(306.74,68.9225) rotate(30.3191) scale(-1,1)">
+					<title>Tabelle.8</title>
+					<path d="M0 595.28 L7.22 595.28" class="st13"/>
+				</g>
+				<g id="shape9-44" v:mID="9" v:groupContext="shape"
+						transform="translate(306.74,1096.64) rotate(-30.3191) scale(1,-1)">
+					<title>Tabelle.9</title>
+					<path d="M0 595.28 L7.22 595.28" class="st13"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape10-47" v:mID="10" v:groupContext="shape" transform="translate(85.0394,-141.732)">
+			<title>agent</title>
+			<desc>Client-system (PS)</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="474.803" width="62.37" height="240.945"/>
+			<rect x="0" y="354.331" width="62.3622" height="240.945" class="st9"/>
+			<text x="16.73" y="465.8" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Client-<tspan
+						x="15.35" dy="1.2em" class="st11">system<v:newlineChar/></tspan><tspan x="21.18" dy="1.2em" class="st11">(</tspan>PS)</text>		</g>
+		<g id="shape13-52" v:mID="13" v:groupContext="shape" transform="translate(609.449,-155.906)">
+			<title>agent.13</title>
+			<desc>KIM Fachdienst (POP3, SMTP, IMAP optional)</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="403.937" width="79.38" height="382.677"/>
+			<rect x="0" y="212.598" width="79.3701" height="382.677" class="st9"/>
+			<text x="4.95" y="394.94" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM Fachdienst<v:newlineChar/><tspan
+						x="6.62" dy="1.2em" class="st11">(</tspan>POP3, SMTP, <tspan x="6.89" dy="1.2em" class="st14">IMAP optional</tspan>)</text>		</g>
+		<g id="shape14-57" v:mID="14" v:groupContext="shape" transform="translate(471.969,-240.945)">
+			<title>agent.14</title>
+			<desc>IDP</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="578.268" width="79.38" height="34.0157"/>
+			<rect x="0" y="561.26" width="79.3701" height="34.0157" class="st9"/>
+			<text x="31.35" y="581.27" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>IDP</text>		</g>
+		<g id="shape61-60" v:mID="61" v:groupContext="shape" transform="translate(85.0394,-411.378)">
+			<title>agent.61</title>
+			<desc>Client-system (PS)</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="531.673" width="62.37" height="127.205"/>
+			<rect x="0" y="468.071" width="62.3622" height="127.205" class="st9"/>
+			<text x="16.73" y="522.67" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Client-<tspan
+						x="15.35" dy="1.2em" class="st11">system<v:newlineChar/></tspan><tspan x="21.18" dy="1.2em" class="st11">(</tspan>PS)</text>		</g>
+		<g id="group71-65" transform="translate(28.3465,-457.972)" v:mID="71" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_StickyMan" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<title>human agent.71</title>
+			<g id="shape72-66" v:mID="72" v:groupContext="shape">
+				<title>Tabelle.72</title>
+				<rect x="0" y="561.26" width="22.6772" height="34.0157" class="st9"/>
+			</g>
+			<g id="group73-68" transform="translate(5.10236,-5.10236)" v:mID="73" v:groupContext="group">
+				<title>Tabelle.73</title>
+				<g id="shape74-69" v:mID="74" v:groupContext="shape" transform="translate(3.42992,-16.9101)">
+					<title>Tabelle.74</title>
+					<path d="M0 592.28 A2.8063 2.99339 0 0 1 5.61 592.28 A2.8063 2.99339 0 0 1 0 592.28 Z" class="st12"/>
+				</g>
+				<g id="shape75-71" v:mID="75" v:groupContext="shape" transform="translate(601.512,578.365) rotate(90)">
+					<title>Tabelle.75</title>
+					<path d="M0 595.28 L9.57 595.28" class="st13"/>
+				</g>
+				<g id="shape76-74" v:mID="76" v:groupContext="shape" transform="translate(459.789,973.482) rotate(130.366)">
+					<title>Tabelle.76</title>
+					<path d="M0 595.28 L9.63 595.28" class="st13"/>
+				</g>
+				<g id="shape77-77" v:mID="77" v:groupContext="shape" transform="translate(459.789,202.397) rotate(49.6338)">
+					<title>Tabelle.77</title>
+					<path d="M0 595.28 L9.63 595.28" class="st13"/>
+				</g>
+				<g id="shape78-80" v:mID="78" v:groupContext="shape"
+						transform="translate(306.74,68.9225) rotate(30.3191) scale(-1,1)">
+					<title>Tabelle.78</title>
+					<path d="M0 595.28 L7.22 595.28" class="st13"/>
+				</g>
+				<g id="shape79-83" v:mID="79" v:groupContext="shape"
+						transform="translate(306.74,1096.64) rotate(-30.3191) scale(1,-1)">
+					<title>Tabelle.79</title>
+					<path d="M0 595.28 L7.22 595.28" class="st13"/>
+				</g>
+			</g>
+		</g>
+		<g id="group80-86" transform="translate(51.0236,-474.98)" v:mID="80" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.80</title>
+			<g id="shape81-87" v:mID="81" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L11.34 595.28" class="st15"/>
+			</g>
+			<g id="shape82-90" v:mID="82" v:groupContext="shape" transform="translate(22.6772,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L11.34 595.28" class="st15"/>
+			</g>
+			<g id="shape83-93" v:mID="83" v:groupContext="shape" transform="translate(11.3386,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st9"/>
+			</g>
+			<g id="shape84-95" v:mID="84" v:groupContext="shape" transform="translate(17.2913,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+		</g>
+		<g id="shape85-102" v:mID="85" v:groupContext="shape" transform="translate(340.157,-411.024)">
+			<title>agent.85</title>
+			<desc>Konnektor</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="31.1811" cy="531.673" width="62.37" height="127.205"/>
+			<rect x="0" y="468.071" width="62.3622" height="127.205" class="st19"/>
+			<text x="8.39" y="479.87" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Konnektor</text>		</g>
+		<g id="shape86-105" v:mID="86" v:groupContext="shape" transform="translate(198.425,-411.378)">
+			<title>agent.86</title>
+			<desc>Client- modul (KIM 1.0/1.5)</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="531.673" width="62.37" height="127.205"/>
+			<rect x="0" y="468.071" width="62.3622" height="127.205" class="st19"/>
+			<text x="16.73" y="516.67" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Client-<v:newlineChar/><tspan
+						x="17.56" dy="1.2em" class="st11">modul<v:newlineChar/></tspan><tspan x="10.9" dy="1.2em" class="st11">(</tspan>KIM 1.0/<tspan
+						x="22.57" dy="1.2em" class="st11">1</tspan>.5)</text>		</g>
+		<g id="group92-111" transform="translate(260.787,-474.803)" v:mID="92" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.92</title>
+			<desc>KIM 1.0/1.5: sign(); verify(); encrypt(); decrypt()</desc>
+			<g id="shape93-112" v:mID="93" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L34.02 595.28" class="st20"/>
+			</g>
+			<g id="shape94-115" v:mID="94" v:groupContext="shape" transform="translate(45.3543,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L34.02 595.28" class="st20"/>
+			</g>
+			<g id="shape95-118" v:mID="95" v:groupContext="shape" transform="translate(34.0157,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st21"/>
+			</g>
+			<g id="shape96-120" v:mID="96" v:groupContext="shape" transform="translate(39.9685,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape92-126" v:mID="92" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="42.5197" cy="618.661" width="71.8" height="71.797"/>
+				<rect v:rectContext="textBkgnd" x="8.73413" y="604.262" width="67.5709" height="28.7998" class="st7"/>
+				<text x="20.95" y="611.46" class="st22" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM 1.0/1.5:<v:newlineChar/><tspan
+							x="16.96" dy="1.2em" class="st11">sign</tspan>(); verify();<v:newlineChar/><tspan x="8.73" dy="1.2em"
+							class="st11">encrypt</tspan>(); decrypt()</text>			</g>
+		</g>
+		<g id="group99-131" transform="translate(260.787,-510.249)" v:mID="99" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.99</title>
+			<desc>KIM 1.0/1.5: send(), receive() and AccountManagerInterface</desc>
+			<g id="shape100-132" v:mID="100" v:groupContext="shape" transform="translate(-1.43885E-13,1.42978)">
+				<title>connection line</title>
+				<path d="M0 595.28 L223.37 595.28" class="st20"/>
+			</g>
+			<g id="shape101-135" v:mID="101" v:groupContext="shape" transform="translate(234.709,1.42978)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L113.95 595.28" class="st20"/>
+			</g>
+			<g id="shape102-138" v:mID="102" v:groupContext="shape" transform="translate(223.37,7.09907)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st21"/>
+			</g>
+			<g id="shape103-140" v:mID="103" v:groupContext="shape" transform="translate(229.323,1179.79) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape99-146" v:mID="99" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="229.606" cy="570.91" width="111.41" height="111.405"/>
+				<rect v:rectContext="textBkgnd" x="176.017" y="561.31" width="107.179" height="19.1997" class="st7"/>
+				<text x="177.81" y="568.51" class="st22" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM 1.0/1.5: send(), receive()<v:newlineChar/><tspan
+							x="176.02" dy="1.2em" class="st11">and AccountManagerInterface</tspan></text>			</g>
+		</g>
+		<g id="group115-150" transform="translate(147.402,-474.98)" v:mID="115" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.115</title>
+			<g id="shape116-151" v:mID="116" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L19.84 595.28" class="st15"/>
+			</g>
+			<g id="shape117-154" v:mID="117" v:groupContext="shape" transform="translate(31.1811,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L19.84 595.28" class="st15"/>
+			</g>
+			<g id="shape118-157" v:mID="118" v:groupContext="shape" transform="translate(19.8425,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st9"/>
+			</g>
+			<g id="shape119-159" v:mID="119" v:groupContext="shape" transform="translate(25.7953,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+		</g>
+		<g id="shape156-165" v:mID="156" v:groupContext="shape" transform="translate(470.551,-411.024)">
+			<title>agent.156</title>
+			<desc>VZD LDAP-Directory</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="574.016" width="79.38" height="42.5197"/>
+			<rect x="0" y="552.756" width="79.3701" height="42.5197" class="st9"/>
+			<text x="29.68" y="571.02" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VZD<v:newlineChar/><tspan
+						x="4.96" dy="1.2em" class="st11">LDAP</tspan>-Directory</text>		</g>
+		<g id="group157-169" transform="translate(260.787,-432.283)" v:mID="157" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.157</title>
+			<desc>KIM 1.0/1.5: ldapSearch()</desc>
+			<g id="shape158-170" v:mID="158" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L99.21 595.28" class="st15"/>
+			</g>
+			<g id="shape159-173" v:mID="159" v:groupContext="shape" transform="translate(110.551,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L99.21 595.28" class="st15"/>
+			</g>
+			<g id="shape160-176" v:mID="160" v:groupContext="shape" transform="translate(99.2126,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st9"/>
+			</g>
+			<g id="shape161-178" v:mID="161" v:groupContext="shape" transform="translate(105.165,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape157-184" v:mID="157" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="110.126" cy="605.764" width="95.39" height="95.3813"/>
+				<rect v:rectContext="textBkgnd" x="64.5483" y="600.964" width="91.1552" height="9.59985" class="st7"/>
+				<text x="64.55" y="608.16" class="st22" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM 1.0/1.5: ldapSearch()</text>			</g>
+		</g>
+		<g id="group167-187" transform="translate(147.402,-357.371)" v:mID="167" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.167</title>
+			<desc>KIM 2.0: search(); write(mailAddress)</desc>
+			<g id="shape168-188" v:mID="168" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L156.61 595.28" class="st23"/>
+			</g>
+			<g id="shape169-191" v:mID="169" v:groupContext="shape" transform="translate(167.953,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L156.61 595.28" class="st23"/>
+			</g>
+			<g id="shape170-194" v:mID="170" v:groupContext="shape" transform="translate(156.614,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st24"/>
+			</g>
+			<g id="shape171-196" v:mID="171" v:groupContext="shape" transform="translate(162.567,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape167-202" v:mID="167" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="150.236" cy="569.969" width="70.47" height="70.4608"/>
+				<rect v:rectContext="textBkgnd" x="117.119" y="560.369" width="66.2346" height="19.1997" class="st7"/>
+				<text x="118.45" y="567.57" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM 2.0: search();<v:newlineChar/><tspan
+							x="117.12" dy="1.2em" class="st11">write</tspan>(mailAddress)</text>			</g>
+		</g>
+		<g id="shape173-206" v:mID="173" v:groupContext="shape" transform="translate(471.969,-340.157)">
+			<title>agent.173</title>
+			<desc>VZD FHIR-Directory</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="578.268" width="79.38" height="34.0157"/>
+			<rect x="0" y="561.26" width="79.3701" height="34.0157" class="st25"/>
+			<text x="29.68" y="575.27" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VZD<v:newlineChar/><tspan
+						x="6.35" dy="1.2em" class="st11">FHIR</tspan>-Directory</text>		</g>
+		<g id="shape293-210" v:mID="293" v:groupContext="shape" transform="translate(725.669,-141.732)">
+			<title>agent.293</title>
+			<desc>KIM Fachdienst (POP3, SMTP, IMAP optional)</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="396.85" width="79.38" height="396.85"/>
+			<rect x="0" y="198.425" width="79.3701" height="396.85" class="st9"/>
+			<text x="4.95" y="387.85" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM Fachdienst<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="6.62" dy="1.2em" class="st11">(</tspan>POP3, SMTP, <tspan x="6.89" dy="1.2em"
+						class="st14">IMAP optional</tspan>)</text>		</g>
+		<g id="group294-215" transform="translate(688.819,-382.677)" v:mID="294" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.294</title>
+			<desc>SMTP</desc>
+			<g id="shape295-216" v:mID="295" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L12.76 595.28" class="st20"/>
+			</g>
+			<g id="shape296-219" v:mID="296" v:groupContext="shape" transform="translate(24.0945,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L12.76 595.28" class="st20"/>
+			</g>
+			<g id="shape297-222" v:mID="297" v:groupContext="shape" transform="translate(12.7559,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st21"/>
+			</g>
+			<g id="shape298-224" v:mID="298" v:groupContext="shape" transform="translate(18.7087,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape294-230" v:mID="294" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="19.3465" cy="605.764" width="26.45" height="26.4485"/>
+				<rect v:rectContext="textBkgnd" x="8.23517" y="600.964" width="22.2223" height="9.59985" class="st7"/>
+				<text x="8.24" y="608.16" class="st22" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>SMTP</text>			</g>
+		</g>
+		<g id="group299-233" transform="translate(609.449,-439.37)" v:mID="299" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.299</title>
+			<desc>setMail Address (REST/LDAP)</desc>
+			<g id="shape300-234" v:mID="300" v:groupContext="shape" transform="translate(1.9984E-14,1190.55) rotate(180)">
+				<title>connection line</title>
+				<path d="M0 595.28 L24.09 595.28" class="st20"/>
+			</g>
+			<g id="shape301-237" v:mID="301" v:groupContext="shape" transform="translate(-35.4331,1190.55) rotate(180)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L24.09 595.28" class="st20"/>
+			</g>
+			<g id="shape302-240" v:mID="302" v:groupContext="shape" transform="translate(-35.4331,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st21"/>
+			</g>
+			<g id="shape303-242" v:mID="303" v:groupContext="shape" transform="translate(-30.0472,1178.36) rotate(180)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035" transform="rotate(180)"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="2.94" y="-593.9" transform="rotate(180)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape299-248" v:mID="299" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-9.92126" cy="566.929" width="61.14" height="61.1361"/>
+				<rect v:rectContext="textBkgnd" x="-38.3764" y="557.329" width="56.91" height="19.1997" class="st7"/>
+				<text x="-38.38" y="564.53" class="st22" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>setMail Address<v:newlineChar/><tspan
+							x="-34.81" dy="1.2em" class="st11">(</tspan>REST/LDAP)</text>			</g>
+		</g>
+		<g id="shape315-252" v:mID="315" v:groupContext="shape" transform="translate(198.425,-141.732)">
+			<title>agent.315</title>
+			<desc>Client-modul (KIM 2.0; has private keys)</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="491.102" width="62.37" height="208.346"/>
+			<rect x="0" y="386.929" width="62.3622" height="208.346" class="st25"/>
+			<text x="3.11" y="476.1" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Client-modul<v:newlineChar/><tspan
+						x="10.9" dy="1.2em" class="st11">(</tspan>KIM 2.0;<v:newlineChar/><tspan x="6.72" dy="1.2em" class="st14">has private<v:newlineChar/></tspan><tspan
+						x="19.23" dy="1.2em" class="st14">keys</tspan>)</text>		</g>
+		<g id="shape321-258" v:mID="321" v:groupContext="shape" transform="translate(471.969,-290.197)">
+			<title>agent.321</title>
+			<desc>TSP</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="578.268" width="79.38" height="34.0157"/>
+			<rect x="0" y="561.26" width="79.3701" height="34.0157" class="st25"/>
+			<text x="29.96" y="581.27" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>TSP</text>		</g>
+		<g id="group322-261" transform="translate(260.787,-306.579)" v:mID="322" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.322</title>
+			<desc>KIM 2.0: getTelematikId(); certificateSigningRequest(encKey, ...</desc>
+			<g id="shape323-262" v:mID="323" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L99.92 595.28" class="st2"/>
+			</g>
+			<g id="shape324-265" v:mID="324" v:groupContext="shape" transform="translate(111.26,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L99.92 595.28" class="st2"/>
+			</g>
+			<g id="shape325-268" v:mID="325" v:groupContext="shape" transform="translate(99.9213,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape326-270" v:mID="326" v:groupContext="shape" transform="translate(105.874,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape322-276" v:mID="322" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="105.591" cy="613.391" width="171.42" height="171.413"/>
+				<rect v:rectContext="textBkgnd" x="21.9971" y="603.791" width="167.187" height="19.1997" class="st7"/>
+				<text x="59.58" y="610.99" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>KIM 2.0: getTelematikId();<v:newlineChar/><tspan
+							x="22" dy="1.2em" class="st11">certificateSigningRequest</tspan>(encKey, telematikID)</text>			</g>
+		</g>
+		<g id="group332-280" transform="translate(260.787,-257.953)" v:mID="332" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.332</title>
+			<desc>OIDC</desc>
+			<g id="shape333-281" v:mID="333" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L99.92 595.28" class="st26"/>
+			</g>
+			<g id="shape334-284" v:mID="334" v:groupContext="shape" transform="translate(111.26,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L99.92 595.28" class="st26"/>
+			</g>
+			<g id="shape335-287" v:mID="335" v:groupContext="shape" transform="translate(99.9213,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st25"/>
+			</g>
+			<g id="shape336-289" v:mID="336" v:groupContext="shape" transform="translate(105.874,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape332-295" v:mID="332" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="103.598" cy="608.74" width="24.23" height="24.2262"/>
+				<rect v:rectContext="textBkgnd" x="93.5981" y="603.94" width="20.0001" height="9.59985" class="st7"/>
+				<text x="93.6" y="611.14" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>OIDC</text>			</g>
+		</g>
+		<g id="group338-298" transform="translate(147.402,-254.055)" v:mID="338" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.338</title>
+			<g id="shape339-299" v:mID="339" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L19.84 595.28" class="st15"/>
+			</g>
+			<g id="shape340-302" v:mID="340" v:groupContext="shape" transform="translate(31.1811,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L19.84 595.28" class="st15"/>
+			</g>
+			<g id="shape341-305" v:mID="341" v:groupContext="shape" transform="translate(19.8425,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st9"/>
+			</g>
+			<g id="shape342-307" v:mID="342" v:groupContext="shape" transform="translate(25.7953,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+		</g>
+		<g id="group343-313" transform="translate(51.0236,-262.854)" v:mID="343" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.343</title>
+			<g id="shape344-314" v:mID="344" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L11.34 595.28" class="st15"/>
+			</g>
+			<g id="shape345-317" v:mID="345" v:groupContext="shape" transform="translate(22.6772,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L11.34 595.28" class="st15"/>
+			</g>
+			<g id="shape346-320" v:mID="346" v:groupContext="shape" transform="translate(11.3386,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st9"/>
+			</g>
+			<g id="shape347-322" v:mID="347" v:groupContext="shape" transform="translate(17.2913,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st16"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st18" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+		</g>
+		<g id="group354-328" transform="translate(-84.3307,184.252) rotate(-90)" v:mID="354" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>ver/hor channel.354</title>
+			<desc>sync</desc>
+			<g id="shape355-329" v:mID="355" v:groupContext="shape" transform="translate(1.39888E-14,1190.55) rotate(180)">
+				<title>connection line</title>
+				<path d="M0 595.28 L12.76 595.28" class="st26"/>
+			</g>
+			<g id="shape356-332" v:mID="356" v:groupContext="shape" transform="translate(-24.0945,1190.55) rotate(180)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L12.76 595.28" class="st26"/>
+			</g>
+			<g id="shape357-335" v:mID="357" v:groupContext="shape" transform="translate(-24.0945,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st25"/>
+			</g>
+			<g id="shape358-337" v:mID="358" v:groupContext="shape" transform="translate(-18.1417,1204.72) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035" transform="rotate(90)"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-597.87" y="6.9" transform="rotate(90) scale(-1,1)" class="st6" v:langID="1031"><v:paragraph
+							v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape354-343" v:mID="354" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-18.4252" cy="576.992" width="20.68" height="20.6757" transform="rotate(90)"/>
+				<rect v:rectContext="textBkgnd" x="568.767" y="13.6253" width="16.4496" height="9.59985" transform="rotate(90)"
+						class="st7"/>
+				<text x="568.77" y="20.83" transform="rotate(90)" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>sync</text>			</g>
+		</g>
+		<g id="shape359-346" v:mID="359" v:groupContext="shape" transform="translate(566.929,-167.244)">
+			<title>Tabelle.359</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="shape361-349" v:mID="361" v:groupContext="shape" transform="translate(430.839,-240.945)">
+			<title>Tabelle.361</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="shape362-352" v:mID="362" v:groupContext="shape" transform="translate(430.839,-289.507)">
+			<title>Tabelle.362</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="group368-355" transform="translate(688.819,-382.677)" v:mID="368" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.368</title>
+			<desc>SMTP</desc>
+			<g id="shape369-356" v:mID="369" v:groupContext="shape" transform="translate(-1.39888E-14,73.9559)">
+				<title>connection line</title>
+				<path d="M0 595.28 L13.86 595.28" class="st2"/>
+			</g>
+			<g id="shape370-359" v:mID="370" v:groupContext="shape" transform="translate(25.2,73.9559)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L11.65 595.28" class="st2"/>
+			</g>
+			<g id="shape371-362" v:mID="371" v:groupContext="shape" transform="translate(13.8614,79.6252)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape372-364" v:mID="372" v:groupContext="shape" transform="translate(19.8142,1252.32) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape368-370" v:mID="368" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="19.3465" cy="679.72" width="26.45" height="26.4485"/>
+				<rect v:rectContext="textBkgnd" x="8.23517" y="674.92" width="22.2223" height="9.59985" class="st7"/>
+				<text x="8.24" y="682.12" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>SMTP</text>			</g>
+		</g>
+		<g id="shape373-373" v:mID="373" v:groupContext="shape" transform="translate(685.957,-276.191)">
+			<title>Tabelle.373</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="shape374-376" v:mID="374" v:groupContext="shape" transform="translate(430.839,-344.596)">
+			<title>Tabelle.374</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="shape375-379" v:mID="375" v:groupContext="shape" transform="translate(527.189,-389.577)">
+			<title>Tabelle.375</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="shape376-382" v:mID="376" v:groupContext="shape" transform="translate(14.1732,-66.6473)">
+			<title>Tabelle.376</title>
+			<desc>SMIME Zertifikate (enthalten mail Adresse) anstatt Osig und E...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="204.535" cy="568.363" width="409.08" height="53.8251"/>
+			<rect x="0" y="541.45" width="409.071" height="53.8251" class="st27"/>
+			<text x="4" y="554.45" class="st29" v:langID="1031"><v:paragraph/><v:tabList/>SMIME Zertifikate (enthalten mail Adresse) anstatt Osig und Enc, wenn möglich (Konnektoren <tspan
+						x="4" dy="1.2em" class="st11">können mit SMIME Zertifikaten umgehen oder keine KIM </tspan>1.x Installation mehr im Feld sind (wegen <tspan
+						x="4" dy="1.2em" class="st11">Kompatibilität</tspan>)<v:newlineChar/><v:newlineChar/><tspan x="4"
+						dy="2.4em" class="st11">ACME Protokoll nach RFC</tspan>8555 und https://datatracker.ietf.org/doc/html/draft-ietf-acme-email-<tspan
+						x="4" dy="1.2em" class="st11">smime für automatisches Zertifikatsmanagement</tspan></text>		</g>
+		<g id="shape377-389" v:mID="377" v:groupContext="shape" transform="translate(566.929,-49.6063)">
+			<title>Tabelle.377</title>
+			<desc>KIM 2.0 Architektur Herausgeber: gematik, Team Communications...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="120.472" cy="566.929" width="240.95" height="56.6929"/>
+			<rect x="0" y="538.583" width="240.945" height="56.6929" class="st27"/>
+			<text x="4" y="553.38" class="st30" v:langID="1031"><v:paragraph/><v:tabList/>KIM 2.0 Architektur<v:newlineChar/><tspan
+						x="4" dy="1.2em" class="st31">Herausgeber</tspan><tspan class="st31">: </tspan><tspan class="st31">gematik</tspan><tspan
+						class="st31">, </tspan><tspan class="st31">Team Communications<v:newlineChar/></tspan><tspan x="4"
+						dy="1.2em" class="st31">Datum</tspan><tspan class="st31">: </tspan><tspan class="st31">14</tspan><tspan
+						class="st31">.</tspan><tspan class="st31">03</tspan><tspan class="st31">.</tspan><tspan class="st31">2022</tspan></text>		</g>
+		<g id="shape381-404" v:mID="381" v:groupContext="shape" transform="translate(617.953,-167.244)">
+			<title>agent.381</title>
+			<desc>Cert Storage</desc>
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(agent)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(active)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="N100" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N101" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N102" v:val="VT0(1):26"/>
+				<v:ud v:nameU="N103" v:val="VT0(1):26"/>
+				<v:ud v:nameU="S100" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S101" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S102" v:val="VT0(3):26"/>
+				<v:ud v:nameU="S103" v:val="VT0(3):26"/>
+				<v:ud v:nameU="W100" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W101" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W102" v:val="VT0(4):26"/>
+				<v:ud v:nameU="W103" v:val="VT0(4):26"/>
+				<v:ud v:nameU="E100" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E101" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E102" v:val="VT0(2):26"/>
+				<v:ud v:nameU="E103" v:val="VT0(2):26"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Agent" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+				<v:ud v:nameU="FMC_Outline_ID" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2.8,2.8,2.8,2.8)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="578.268" width="62.37" height="34.0157"/>
+			<rect x="0" y="561.26" width="62.3622" height="34.0157" class="st25"/>
+			<text x="21.74" y="575.27" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Cert<v:newlineChar/><tspan
+						x="13.67" dy="1.2em" class="st11">Storage</tspan></text>		</g>
+		<g id="group382-408" transform="translate(260.787,-180.709)" v:mID="382" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.382</title>
+			<desc>Cert Upload and Download</desc>
+			<g id="shape383-409" v:mID="383" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L172.91 595.28" class="st2"/>
+			</g>
+			<g id="shape384-412" v:mID="384" v:groupContext="shape" transform="translate(184.252,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L172.91 595.28" class="st2"/>
+			</g>
+			<g id="shape385-415" v:mID="385" v:groupContext="shape" transform="translate(172.913,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape386-417" v:mID="386" v:groupContext="shape" transform="translate(178.866,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape382-423" v:mID="382" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="178.583" cy="605.906" width="100.29" height="100.284"/>
+				<rect v:rectContext="textBkgnd" x="130.553" y="601.106" width="96.0581" height="9.59985" class="st7"/>
+				<text x="130.55" y="608.31" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Cert Upload and Download</text>			</g>
+		</g>
+		<g id="group387-426" transform="translate(260.787,-150.591)" v:mID="387" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="RecursionFlag" v:val="VT0(1):5"/>
+				<v:ud v:nameU="wasPositive" v:val="VT0(1):5"/>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor/ver channel.387</title>
+			<desc>Cert Download</desc>
+			<g id="shape388-427" v:mID="388" v:groupContext="shape">
+				<title>connection line</title>
+				<path d="M0 595.28 L226.77 595.28" class="st2"/>
+			</g>
+			<g id="shape389-430" v:mID="389" v:groupContext="shape" transform="translate(238.11,0)">
+				<title>connection line.7</title>
+				<path d="M0 595.28 L226.77 595.28" class="st2"/>
+			</g>
+			<g id="shape390-433" v:mID="390" v:groupContext="shape" transform="translate(226.772,5.66929)">
+				<title>channel.18</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape391-435" v:mID="391" v:groupContext="shape" transform="translate(232.724,1178.36) scale(1,-1)">
+				<title>read/write arrow.10</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.701" width="14.01" height="15.2035"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="-7.27" y="-593.9" transform="scale(1,-1)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape387-441" v:mID="387" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="195.546" cy="602.362" width="57.15" height="57.1401"/>
+				<rect v:rectContext="textBkgnd" x="169.088" y="597.562" width="52.914" height="9.59985" class="st7"/>
+				<text x="169.09" y="604.76" class="st8" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Cert Download</text>			</g>
+		</g>
+		<g id="shape392-444" v:mID="392" v:groupContext="shape" transform="translate(566.929,-198.425)">
+			<title>Tabelle.392</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="shape393-447" v:mID="393" v:groupContext="shape" transform="translate(683.004,-134.459)">
+			<title>Tabelle.393</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+		<g id="group401-450" transform="translate(549.921,-419.882)" v:mID="401" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor. univ. comchannel</title>
+			<desc>write Cert</desc>
+			<g id="shape402-451" v:mID="402" v:groupContext="shape">
+				<title>Tabelle.402</title>
+				<path d="M0 595.28 L19.84 595.28 A14.1732 14.1732 0 0 1 34.02 609.45 L34.02 713" class="st2"/>
+			</g>
+			<g id="shape403-454" v:mID="403" v:groupContext="shape" transform="translate(34.0157,106.383)">
+				<title>Tabelle.403</title>
+				<path d="M0 595.28 L0 703.26 A14.1732 14.1732 -180 0 0 14.17 717.44 L34.02 717.44" class="st2"/>
+			</g>
+			<g id="shape404-457" v:mID="404" v:groupContext="shape" transform="translate(28.3465,117.721)">
+				<title>channel</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape405-459" v:mID="405" v:groupContext="shape" transform="translate(-574.016,707.396) rotate(-90)">
+				<title>read/write arrow</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.276" width="14.01" height="15.2035" transform="rotate(90)"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="593.11" y="6.9" transform="rotate(90)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape401-465" v:mID="401" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="59.5276" cy="717.52" width="47.57" height="12.0036"/>
+				<rect v:rectContext="textBkgnd" x="38.1358" y="711.52" width="42.7832" height="12.0001" class="st32"/>
+				<text x="38.14" y="720.52" class="st33" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>write Cert</text>			</g>
+		</g>
+		<g id="group406-468" transform="translate(260.787,-340.157)" v:mID="406" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="PSMType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031" v:val="VT4(channel)"/>
+				<v:cp v:nameU="FMCType" v:lbl="Type" v:type="0" v:format="@" v:invis="true" v:langID="1031"
+						v:val="VT4(com_channel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="FMC_DrawingType" v:prompt="FMC-Block_diagram"/>
+				<v:ud v:nameU="FMC_channel_id" v:val="VT0(3):26"/>
+				<v:ud v:nameU="FMC_firstedge_id" v:val="VT0(1):26"/>
+				<v:ud v:nameU="FMC_secondedge_id" v:val="VT0(2):26"/>
+				<v:ud v:nameU="TIA_NumberOfTextBoxes" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TIA_TextBox1" v:prompt="Descriptor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_Identifier_ID" v:val="VT0(0):26"/>
+				<v:ud v:nameU="FMC_RequestTextID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_RequestArrowID" v:val="VT0(4):26"/>
+				<v:ud v:nameU="FMC_ST_Version" v:val="VT4(2.1.1)"/>
+			</v:userDefs>
+			<title>hor. univ. comchannel.406</title>
+			<desc>ldapSearch()</desc>
+			<g id="shape407-469" v:mID="407" v:groupContext="shape">
+				<title>Tabelle.407</title>
+				<path d="M0 595.28 L141.73 595.28 A14.1732 14.1732 -180 0 0 155.91 581.1 L155.91 559.96" class="st2"/>
+			</g>
+			<g id="shape408-472" v:mID="408" v:groupContext="shape" transform="translate(155.906,-46.6538)">
+				<title>Tabelle.408</title>
+				<path d="M0 595.28 L0 576.73 A14.1732 14.1732 0 0 1 14.17 562.56 L53.86 562.56" class="st2"/>
+			</g>
+			<g id="shape409-475" v:mID="409" v:groupContext="shape" transform="translate(150.236,-35.3153)">
+				<title>channel</title>
+				<ellipse cx="5.66929" cy="589.606" rx="5.66929" ry="5.66929" class="st3"/>
+			</g>
+			<g id="shape410-477" v:mID="410" v:groupContext="shape" transform="translate(-452.126,554.359) rotate(-90)">
+				<title>read/write arrow</title>
+				<desc>R</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-5.10236" cy="595.276" width="14.01" height="15.2035" transform="rotate(90)"/>
+				<path d="M0 595.28 L5.1 595.28" class="st4"/>
+				<text x="593.11" y="6.9" transform="rotate(90)" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>			</g>
+			<g id="shape406-483" v:mID="406" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(0,1,0,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="127.559" cy="568.996" width="55.77" height="12.3125"/>
+				<rect v:rectContext="textBkgnd" x="102.263" y="556.996" width="50.5912" height="24.0002" class="st7"/>
+				<text x="102.26" y="566" class="st33" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>ldapSearch<tspan
+							x="124.23" dy="1.2em" class="st11">()</tspan></text>			</g>
+		</g>
+		<g id="shape411-487" v:mID="411" v:groupContext="shape" transform="translate(428.74,-403.751)">
+			<title>Tabelle.411</title>
+			<desc>Internet</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="22.7047" cy="588.002" width="45.41" height="14.5462"/>
+			<rect x="0" y="580.729" width="45.4094" height="14.5462" class="st27"/>
+			<text x="6.12" y="591" class="st28" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Internet</text>		</g>
+	</g>
+</svg>
