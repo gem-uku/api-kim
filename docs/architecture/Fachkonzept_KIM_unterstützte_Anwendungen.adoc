@@ -47,7 +47,12 @@ Anhand der im PS gespeicherten Patientendaten ermittelt das PS die IK-Nummer der
 
 Hinweis: Der Vorgang wird idealerweise automatisch ausgeführt, wenn das Backend-System zur Verarbeitung von KIM-Anwendungen (im folgenden Clientsystem genannt) ein update erhält.
 
-Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung sollen die Anwendungen eAU und EBZ unterstützt werden. Das Clientsystem sendet eine KIM-Nachricht ohne Inhalt an die eigene Adresse. Die KIM-Nachricht enthält jedoch im Header die payloadTypes der unterstützten KIM-Anwendungen. Der payLoadType entspricht der Dienstkennung; enthält jedoch nicht die Nachrichtentypen (mittlerer Teil der Dienstkennung).
+Das Clientsystem kennt die unterstützten KIM-Anwendungen. Zur Veranschaulichung sollen die Anwendungen eAU und EBZ unterstützt werden. Das Clientsystem sendet eine KIM-Nachricht ohne Inhalt an die eigene Adresse. Die KIM-Nachricht enthält jedoch im Header die payloadTypes der unterstützten KIM-Anwendungen. Der payLoadType entspricht der Dienstkennung; enthält jedoch nicht die Nachrichtentypen (mittlerer Teil der Dienstkennung). Dazu wird das folgende Header-Element verwendet.
+
+[source, bash]
+----
+X-KIM-payloadType
+----
 
 .Beispiel, KIM-Anwendung und zugehörige payloadType
 |===
@@ -70,6 +75,13 @@ und trägt im VZD die Unterstützung der Anwendung gemäß payloadType ein. Übe
 [source, bash]
 ----
  X-KIM-KonfigVZD=removeAppSupport
+----
+
+Die eingetragenen Werte können auch ausgelesen werden. In diesem Fall erzeugt der KIM-Fachdienst eine DSN, die die im Header zur KIM-Adresse gehörenden payloadType-Werte enthält.
+
+[source, bash]
+----
+ X-KIM-KonfigVZD=readAppSupport
 ----
 
 === Datenmodell
@@ -145,7 +157,7 @@ Die Endpoint Ressource ist bereits definiert: https://simplifier.net/vzd-fhir-di
 
 == Schnittstellen
 
-Die KIM-Anbieter nutzen am VZD eine REST-Schnittstelle zur Pflege ihrer Fachdaten im LDAP-Directory (I_Directory_Application_Maintenance). Diese Schnittstelle wird um Operationen zum anlegen, ändern und löschen von endpoint Attributen erweitert. Die Suche nach Einträgen muss erweitert werden, sodass auch die KIM Mail-Adresse als Suchparameter angegeben werden kann. Dadurch wird es möglich, dass der KIM-MAil-Server anhand der from Adresse den zu ändernden Eintrag mit den KIM-Fachdaten finden kann.
+Die KIM-Anbieter nutzen am VZD eine REST-Schnittstelle zur Pflege ihrer Fachdaten im LDAP-Directory (I_Directory_Application_Maintenance). Diese Schnittstelle wird um Operationen zum anlegen, ändern und löschen von endpoint Attributen erweitert. Die Suche nach Einträgen muss erweitert werden, sodass auch die KIM Mail-Adresse als Suchparameter angegeben werden kann. Dadurch wird es möglich, dass der KIM-Mail-Server anhand der from Adresse den zu ändernden Eintrag mit den KIM-Fachdaten finden kann.
 
 == API
 
