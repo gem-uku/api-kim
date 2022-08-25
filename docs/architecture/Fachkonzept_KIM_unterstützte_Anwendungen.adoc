@@ -77,7 +77,7 @@ und trägt im VZD die Unterstützung der Anwendung gemäß payloadType ein. Übe
  X-KIM-KonfigVZD=removeAppSupport
 ----
 
-Die eingetragenen Werte können ausgelesen werden. In diesem Fall erzeugt der KIM-Fachdienst eine DSN, die die im Header zur KIM-Adresse gehörenden payloadType-Werte enthält.
+Die eingetragenen Werte können ausgelesen werden. In diesem Fall sendet das Clientsystem eine KIM-Nachricht ohne Inhalt an die eigene Adresse und der KIM-Fachdienst erzeugt nach Abfrage der Daten im VZD eine DSN, die die im Header zur KIM-Adresse gehörenden payloadType-Werte enthält.
 
 [source, bash]
 ----
